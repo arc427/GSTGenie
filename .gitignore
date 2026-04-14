@@ -1,0 +1,19 @@
+cat <<EOF > .gitignore
+# Dependencies
+node_modules/
+
+# Environment Variables (Protect your keys!)
+.env
+.env.local
+
+# Build Outputs
+.next/
+dist/
+build/
+
+# Uploaded Files (Local storage)
+backend/uploads/
+
+# System Files
+.DS_Store
+EOF
